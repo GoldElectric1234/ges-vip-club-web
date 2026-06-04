@@ -1,0 +1,81 @@
+{
+  "before": {
+    "innerWidth": 390,
+    "seniorButton": {
+      "text": "Senior",
+      "rect": {
+        "x": 16,
+        "y": 68,
+        "width": 67.578125,
+        "height": 44,
+        "top": 68,
+        "right": 83.578125,
+        "bottom": 112,
+        "left": 16
+      },
+      "disabled": false,
+      "ariaPressed": "false",
+      "className": "min-h-11 shrink-0 touch-manipulation whitespace-nowrap rounded-lg font-bold transition-all bg-purple-100 px-3 py-2 text-sm text-purple-700 hover:bg-purple-200"
+    },
+    "localStorageValue": "false",
+    "rootClass": "",
+    "heroClass": "font-bold text-4xl sm:text-5xl lg:text-6xl",
+    "headerHeight": 129,
+    "bodyScrollWidth": 390,
+    "documentClientWidth": 390
+  },
+  "tapPoint": {
+    "x": 50,
+    "y": 90
+  },
+  "after": {
+    "innerWidth": 390,
+    "seniorButton": {
+      "text": "Senior ON",
+      "rect": {
+        "x": 16,
+        "y": 78,
+        "width": 110.234375,
+        "height": 48,
+        "top": 78,
+        "right": 126.234375,
+        "bottom": 126,
+        "left": 16
+      },
+      "disabled": false,
+      "ariaPressed": "true",
+      "className": "min-h-11 shrink-0 touch-manipulation whitespace-nowrap rounded-lg font-bold transition-all bg-purple-600 px-4 py-3 text-base text-white shadow-lg hover:bg-purple-700"
+    },
+    "localStorageValue": "true",
+    "rootClass": "",
+    "heroClass": "font-bold text-5xl sm:text-6xl lg:text-7xl",
+    "headerHeight": 145,
+    "bodyScrollWidth": 390,
+    "documentClientWidth": 390
+  },
+  "refreshed": {
+    "innerWidth": 390,
+    "seniorButton": {
+      "text": "Senior ON",
+      "rect": {
+        "x": 16,
+        "y": 78,
+        "width": 110.234375,
+        "height": 48,
+        "top": 78,
+        "right": 126.234375,
+        "bottom": 126,
+        "left": 16
+      },
+      "disabled": false,
+      "ariaPressed": "true",
+      "className": "min-h-11 shrink-0 touch-manipulation whitespace-nowrap rounded-lg font-bold transition-all bg-purple-600 px-4 py-3 text-base text-white shadow-lg hover:bg-purple-700"
+    },
+    "localStorageValue": "true",
+    "rootClass": "",
+    "heroClass": "font-bold text-5xl sm:text-6xl lg:text-7xl",
+    "headerHeight": 145,
+    "bodyScrollWidth": 390,
+    "documentClientWidth": 390
+  }
+}

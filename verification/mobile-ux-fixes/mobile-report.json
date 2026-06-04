@@ -1,0 +1,834 @@
+{
+  "results": [
+    {
+      "state": "en-normal",
+      "requested": "/",
+      "actual": "/",
+      "language": "en",
+      "senior": "false",
+      "overflowX": false,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "hasCall": true,
+      "hasMenu": true,
+      "spanishOk": true,
+      "seniorOk": true,
+      "heading": [
+        "GES VIP CLUB",
+        "Your Electrician\nFor Life"
+      ]
+    },
+    {
+      "state": "en-normal",
+      "requested": "/login",
+      "actual": "/login",
+      "language": "en",
+      "senior": "false",
+      "overflowX": false,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "hasCall": true,
+      "hasMenu": true,
+      "spanishOk": true,
+      "seniorOk": true,
+      "heading": [
+        "GES VIP CLUB",
+        "Welcome Back"
+      ]
+    },
+    {
+      "state": "en-normal",
+      "requested": "/register",
+      "actual": "/register",
+      "language": "en",
+      "senior": "false",
+      "overflowX": false,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "hasCall": true,
+      "hasMenu": true,
+      "spanishOk": true,
+      "seniorOk": true,
+      "heading": [
+        "GES VIP CLUB",
+        "Create Your Account"
+      ]
+    },
+    {
+      "state": "en-normal",
+      "requested": "/forgot-password",
+      "actual": "/forgot-password",
+      "language": "en",
+      "senior": "false",
+      "overflowX": false,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "hasCall": true,
+      "hasMenu": true,
+      "spanishOk": true,
+      "seniorOk": true,
+      "heading": [
+        "GES VIP CLUB",
+        "Reset Your Password"
+      ]
+    },
+    {
+      "state": "en-normal",
+      "requested": "/dashboard",
+      "actual": "/login",
+      "language": "en",
+      "senior": "false",
+      "overflowX": false,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "hasCall": true,
+      "hasMenu": true,
+      "spanishOk": true,
+      "seniorOk": true,
+      "heading": [
+        "GES VIP CLUB",
+        "Welcome Back"
+      ]
+    },
+    {
+      "state": "en-normal",
+      "requested": "/settings",
+      "actual": "/login",
+      "language": "en",
+      "senior": "false",
+      "overflowX": false,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "hasCall": true,
+      "hasMenu": true,
+      "spanishOk": true,
+      "seniorOk": true,
+      "heading": [
+        "GES VIP CLUB",
+        "Welcome Back"
+      ]
+    },
+    {
+      "state": "en-normal",
+      "requested": "/properties",
+      "actual": "/login",
+      "language": "en",
+      "senior": "false",
+      "overflowX": false,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "hasCall": true,
+      "hasMenu": true,
+      "spanishOk": true,
+      "seniorOk": true,
+      "heading": [
+        "GES VIP CLUB",
+        "Welcome Back"
+      ]
+    },
+    {
+      "state": "en-normal",
+      "requested": "/properties/new",
+      "actual": "/login",
+      "language": "en",
+      "senior": "false",
+      "overflowX": false,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "hasCall": true,
+      "hasMenu": true,
+      "spanishOk": true,
+      "seniorOk": true,
+      "heading": [
+        "GES VIP CLUB",
+        "Welcome Back"
+      ]
+    },
+    {
+      "state": "en-normal",
+      "requested": "/service-requests",
+      "actual": "/login",
+      "language": "en",
+      "senior": "false",
+      "overflowX": false,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "hasCall": true,
+      "hasMenu": true,
+      "spanishOk": true,
+      "seniorOk": true,
+      "heading": [
+        "GES VIP CLUB",
+        "Welcome Back"
+      ]
+    },
+    {
+      "state": "en-normal",
+      "requested": "/service-requests/new",
+      "actual": "/login",
+      "language": "en",
+      "senior": "false",
+      "overflowX": false,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "hasCall": true,
+      "hasMenu": true,
+      "spanishOk": true,
+      "seniorOk": true,
+      "heading": [
+        "GES VIP CLUB",
+        "Welcome Back"
+      ]
+    },
+    {
+      "state": "es-normal",
+      "requested": "/",
+      "actual": "/",
+      "language": "es",
+      "senior": "false",
+      "overflowX": false,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "hasCall": true,
+      "hasMenu": true,
+      "spanishOk": true,
+      "seniorOk": true,
+      "heading": [
+        "GES VIP CLUB",
+        "Tu electricista\nde por vida"
+      ]
+    },
+    {
+      "state": "es-normal",
+      "requested": "/login",
+      "actual": "/login",
+      "language": "es",
+      "senior": "false",
+      "overflowX": false,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "hasCall": true,
+      "hasMenu": true,
+      "spanishOk": false,
+      "seniorOk": true,
+      "heading": [
+        "GES VIP CLUB",
+        "Bienvenido de vuelta"
+      ]
+    },
+    {
+      "state": "es-normal",
+      "requested": "/register",
+      "actual": "/register",
+      "language": "es",
+      "senior": "false",
+      "overflowX": false,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "hasCall": true,
+      "hasMenu": true,
+      "spanishOk": false,
+      "seniorOk": true,
+      "heading": [
+        "GES VIP CLUB",
+        "Crear tu cuenta"
+      ]
+    },
+    {
+      "state": "es-normal",
+      "requested": "/forgot-password",
+      "actual": "/forgot-password",
+      "language": "es",
+      "senior": "false",
+      "overflowX": false,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "hasCall": true,
+      "hasMenu": true,
+      "spanishOk": true,
+      "seniorOk": true,
+      "heading": [
+        "GES VIP CLUB",
+        "Restablecer tu contrasena"
+      ]
+    },
+    {
+      "state": "es-normal",
+      "requested": "/dashboard",
+      "actual": "/login",
+      "language": "es",
+      "senior": "false",
+      "overflowX": false,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "hasCall": true,
+      "hasMenu": true,
+      "spanishOk": false,
+      "seniorOk": true,
+      "heading": [
+        "GES VIP CLUB",
+        "Bienvenido de vuelta"
+      ]
+    },
+    {
+      "state": "es-normal",
+      "requested": "/settings",
+      "actual": "/login",
+      "language": "es",
+      "senior": "false",
+      "overflowX": false,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "hasCall": true,
+      "hasMenu": true,
+      "spanishOk": false,
+      "seniorOk": true,
+      "heading": [
+        "GES VIP CLUB",
+        "Bienvenido de vuelta"
+      ]
+    },
+    {
+      "state": "es-normal",
+      "requested": "/properties",
+      "actual": "/login",
+      "language": "es",
+      "senior": "false",
+      "overflowX": false,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "hasCall": true,
+      "hasMenu": true,
+      "spanishOk": false,
+      "seniorOk": true,
+      "heading": [
+        "GES VIP CLUB",
+        "Bienvenido de vuelta"
+      ]
+    },
+    {
+      "state": "es-normal",
+      "requested": "/properties/new",
+      "actual": "/login",
+      "language": "es",
+      "senior": "false",
+      "overflowX": false,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "hasCall": true,
+      "hasMenu": true,
+      "spanishOk": false,
+      "seniorOk": true,
+      "heading": [
+        "GES VIP CLUB",
+        "Bienvenido de vuelta"
+      ]
+    },
+    {
+      "state": "es-normal",
+      "requested": "/service-requests",
+      "actual": "/login",
+      "language": "es",
+      "senior": "false",
+      "overflowX": false,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "hasCall": true,
+      "hasMenu": true,
+      "spanishOk": false,
+      "seniorOk": true,
+      "heading": [
+        "GES VIP CLUB",
+        "Bienvenido de vuelta"
+      ]
+    },
+    {
+      "state": "es-normal",
+      "requested": "/service-requests/new",
+      "actual": "/login",
+      "language": "es",
+      "senior": "false",
+      "overflowX": false,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "hasCall": true,
+      "hasMenu": true,
+      "spanishOk": false,
+      "seniorOk": true,
+      "heading": [
+        "GES VIP CLUB",
+        "Bienvenido de vuelta"
+      ]
+    },
+    {
+      "state": "es-senior",
+      "requested": "/",
+      "actual": "/",
+      "language": "es",
+      "senior": "true",
+      "overflowX": false,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "hasCall": true,
+      "hasMenu": true,
+      "spanishOk": true,
+      "seniorOk": true,
+      "heading": [
+        "GES VIP CLUB",
+        "Tu electricista\nde por vida"
+      ]
+    },
+    {
+      "state": "es-senior",
+      "requested": "/login",
+      "actual": "/login",
+      "language": "es",
+      "senior": "true",
+      "overflowX": false,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "hasCall": true,
+      "hasMenu": true,
+      "spanishOk": false,
+      "seniorOk": true,
+      "heading": [
+        "GES VIP CLUB",
+        "Bienvenido de vuelta"
+      ]
+    },
+    {
+      "state": "es-senior",
+      "requested": "/register",
+      "actual": "/register",
+      "language": "es",
+      "senior": "true",
+      "overflowX": false,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "hasCall": true,
+      "hasMenu": true,
+      "spanishOk": false,
+      "seniorOk": true,
+      "heading": [
+        "GES VIP CLUB",
+        "Crear tu cuenta"
+      ]
+    },
+    {
+      "state": "es-senior",
+      "requested": "/forgot-password",
+      "actual": "/forgot-password",
+      "language": "es",
+      "senior": "true",
+      "overflowX": false,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "hasCall": true,
+      "hasMenu": true,
+      "spanishOk": true,
+      "seniorOk": true,
+      "heading": [
+        "GES VIP CLUB",
+        "Restablecer tu contrasena"
+      ]
+    },
+    {
+      "state": "es-senior",
+      "requested": "/dashboard",
+      "actual": "/login",
+      "language": "es",
+      "senior": "true",
+      "overflowX": false,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "hasCall": true,
+      "hasMenu": true,
+      "spanishOk": false,
+      "seniorOk": true,
+      "heading": [
+        "GES VIP CLUB",
+        "Bienvenido de vuelta"
+      ]
+    },
+    {
+      "state": "es-senior",
+      "requested": "/settings",
+      "actual": "/login",
+      "language": "es",
+      "senior": "true",
+      "overflowX": false,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "hasCall": true,
+      "hasMenu": true,
+      "spanishOk": false,
+      "seniorOk": true,
+      "heading": [
+        "GES VIP CLUB",
+        "Bienvenido de vuelta"
+      ]
+    },
+    {
+      "state": "es-senior",
+      "requested": "/properties",
+      "actual": "/login",
+      "language": "es",
+      "senior": "true",
+      "overflowX": false,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "hasCall": true,
+      "hasMenu": true,
+      "spanishOk": false,
+      "seniorOk": true,
+      "heading": [
+        "GES VIP CLUB",
+        "Bienvenido de vuelta"
+      ]
+    },
+    {
+      "state": "es-senior",
+      "requested": "/properties/new",
+      "actual": "/login",
+      "language": "es",
+      "senior": "true",
+      "overflowX": false,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "hasCall": true,
+      "hasMenu": true,
+      "spanishOk": false,
+      "seniorOk": true,
+      "heading": [
+        "GES VIP CLUB",
+        "Bienvenido de vuelta"
+      ]
+    },
+    {
+      "state": "es-senior",
+      "requested": "/service-requests",
+      "actual": "/login",
+      "language": "es",
+      "senior": "true",
+      "overflowX": false,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "hasCall": true,
+      "hasMenu": true,
+      "spanishOk": false,
+      "seniorOk": true,
+      "heading": [
+        "GES VIP CLUB",
+        "Bienvenido de vuelta"
+      ]
+    },
+    {
+      "state": "es-senior",
+      "requested": "/service-requests/new",
+      "actual": "/login",
+      "language": "es",
+      "senior": "true",
+      "overflowX": false,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "hasCall": true,
+      "hasMenu": true,
+      "spanishOk": false,
+      "seniorOk": true,
+      "heading": [
+        "GES VIP CLUB",
+        "Bienvenido de vuelta"
+      ]
+    }
+  ],
+  "failures": [
+    {
+      "state": "es-normal",
+      "requested": "/login",
+      "actual": "/login",
+      "language": "es",
+      "senior": "false",
+      "overflowX": false,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "hasCall": true,
+      "hasMenu": true,
+      "spanishOk": false,
+      "seniorOk": true,
+      "heading": [
+        "GES VIP CLUB",
+        "Bienvenido de vuelta"
+      ]
+    },
+    {
+      "state": "es-normal",
+      "requested": "/register",
+      "actual": "/register",
+      "language": "es",
+      "senior": "false",
+      "overflowX": false,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "hasCall": true,
+      "hasMenu": true,
+      "spanishOk": false,
+      "seniorOk": true,
+      "heading": [
+        "GES VIP CLUB",
+        "Crear tu cuenta"
+      ]
+    },
+    {
+      "state": "es-normal",
+      "requested": "/dashboard",
+      "actual": "/login",
+      "language": "es",
+      "senior": "false",
+      "overflowX": false,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "hasCall": true,
+      "hasMenu": true,
+      "spanishOk": false,
+      "seniorOk": true,
+      "heading": [
+        "GES VIP CLUB",
+        "Bienvenido de vuelta"
+      ]
+    },
+    {
+      "state": "es-normal",
+      "requested": "/settings",
+      "actual": "/login",
+      "language": "es",
+      "senior": "false",
+      "overflowX": false,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "hasCall": true,
+      "hasMenu": true,
+      "spanishOk": false,
+      "seniorOk": true,
+      "heading": [
+        "GES VIP CLUB",
+        "Bienvenido de vuelta"
+      ]
+    },
+    {
+      "state": "es-normal",
+      "requested": "/properties",
+      "actual": "/login",
+      "language": "es",
+      "senior": "false",
+      "overflowX": false,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "hasCall": true,
+      "hasMenu": true,
+      "spanishOk": false,
+      "seniorOk": true,
+      "heading": [
+        "GES VIP CLUB",
+        "Bienvenido de vuelta"
+      ]
+    },
+    {
+      "state": "es-normal",
+      "requested": "/properties/new",
+      "actual": "/login",
+      "language": "es",
+      "senior": "false",
+      "overflowX": false,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "hasCall": true,
+      "hasMenu": true,
+      "spanishOk": false,
+      "seniorOk": true,
+      "heading": [
+        "GES VIP CLUB",
+        "Bienvenido de vuelta"
+      ]
+    },
+    {
+      "state": "es-normal",
+      "requested": "/service-requests",
+      "actual": "/login",
+      "language": "es",
+      "senior": "false",
+      "overflowX": false,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "hasCall": true,
+      "hasMenu": true,
+      "spanishOk": false,
+      "seniorOk": true,
+      "heading": [
+        "GES VIP CLUB",
+        "Bienvenido de vuelta"
+      ]
+    },
+    {
+      "state": "es-normal",
+      "requested": "/service-requests/new",
+      "actual": "/login",
+      "language": "es",
+      "senior": "false",
+      "overflowX": false,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "hasCall": true,
+      "hasMenu": true,
+      "spanishOk": false,
+      "seniorOk": true,
+      "heading": [
+        "GES VIP CLUB",
+        "Bienvenido de vuelta"
+      ]
+    },
+    {
+      "state": "es-senior",
+      "requested": "/login",
+      "actual": "/login",
+      "language": "es",
+      "senior": "true",
+      "overflowX": false,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "hasCall": true,
+      "hasMenu": true,
+      "spanishOk": false,
+      "seniorOk": true,
+      "heading": [
+        "GES VIP CLUB",
+        "Bienvenido de vuelta"
+      ]
+    },
+    {
+      "state": "es-senior",
+      "requested": "/register",
+      "actual": "/register",
+      "language": "es",
+      "senior": "true",
+      "overflowX": false,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "hasCall": true,
+      "hasMenu": true,
+      "spanishOk": false,
+      "seniorOk": true,
+      "heading": [
+        "GES VIP CLUB",
+        "Crear tu cuenta"
+      ]
+    },
+    {
+      "state": "es-senior",
+      "requested": "/dashboard",
+      "actual": "/login",
+      "language": "es",
+      "senior": "true",
+      "overflowX": false,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "hasCall": true,
+      "hasMenu": true,
+      "spanishOk": false,
+      "seniorOk": true,
+      "heading": [
+        "GES VIP CLUB",
+        "Bienvenido de vuelta"
+      ]
+    },
+    {
+      "state": "es-senior",
+      "requested": "/settings",
+      "actual": "/login",
+      "language": "es",
+      "senior": "true",
+      "overflowX": false,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "hasCall": true,
+      "hasMenu": true,
+      "spanishOk": false,
+      "seniorOk": true,
+      "heading": [
+        "GES VIP CLUB",
+        "Bienvenido de vuelta"
+      ]
+    },
+    {
+      "state": "es-senior",
+      "requested": "/properties",
+      "actual": "/login",
+      "language": "es",
+      "senior": "true",
+      "overflowX": false,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "hasCall": true,
+      "hasMenu": true,
+      "spanishOk": false,
+      "seniorOk": true,
+      "heading": [
+        "GES VIP CLUB",
+        "Bienvenido de vuelta"
+      ]
+    },
+    {
+      "state": "es-senior",
+      "requested": "/properties/new",
+      "actual": "/login",
+      "language": "es",
+      "senior": "true",
+      "overflowX": false,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "hasCall": true,
+      "hasMenu": true,
+      "spanishOk": false,
+      "seniorOk": true,
+      "heading": [
+        "GES VIP CLUB",
+        "Bienvenido de vuelta"
+      ]
+    },
+    {
+      "state": "es-senior",
+      "requested": "/service-requests",
+      "actual": "/login",
+      "language": "es",
+      "senior": "true",
+      "overflowX": false,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "hasCall": true,
+      "hasMenu": true,
+      "spanishOk": false,
+      "seniorOk": true,
+      "heading": [
+        "GES VIP CLUB",
+        "Bienvenido de vuelta"
+      ]
+    },
+    {
+      "state": "es-senior",
+      "requested": "/service-requests/new",
+      "actual": "/login",
+      "language": "es",
+      "senior": "true",
+      "overflowX": false,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "hasCall": true,
+      "hasMenu": true,
+      "spanishOk": false,
+      "seniorOk": true,
+      "heading": [
+        "GES VIP CLUB",
+        "Bienvenido de vuelta"
+      ]
+    }
+  ]
+}
