@@ -1,0 +1,117 @@
+{
+  "proposalId": "GES-P6-1-CMV-20260729-001",
+  "phase": "6.1",
+  "proposalType": "CONTROLLED_MUTATION_VERIFICATION",
+  "status": "CONTROLLED_MUTATION_VERIFICATION_APPROVED_AND_EXECUTED",
+  "createdAt": "2026-07-29",
+  "branch": "phase-8-batch-6-1-live-persistence-validation",
+  "projectRef": "tmpolrjddutatfjokjfk",
+  "migration": {
+    "version": "20260729011312",
+    "sha256": "46C2D16ED1082F4C76C966246C124657E75D46F100673D1F3E3CF92CA6BFE3AF",
+    "replayAuthorized": false
+  },
+  "authority": {
+    "proposalPreparationAuthorized": true,
+    "executionAuthorized": true,
+    "requiredExecutionApproval": "Granted by Platform Owner for this exact proposal and runbook on 2026-07-29",
+    "approvedPriorDecision": "GES_DOCUMENT_PHASE_6_1_ENGINEERING_GOVERNOR_EVIDENCE_REVIEW_APPROVED"
+  },
+  "executionBoundary": {
+    "liveDatabase": "Transaction-scoped synthetic verification only; one controlled session; unconditional final ROLLBACK",
+    "concurrencyDatabase": "Disposable schema-identical local or isolated non-production database only",
+    "realBusinessRecords": false,
+    "committedSyntheticRows": false,
+    "environmentChanges": false
+  },
+  "syntheticIdentityPrefix": "GES-P6-1-CMV-<UTC_RUN_ID>",
+  "requiredChecks": {
+    "positive": [
+      "FIRST_APPEND",
+      "SEQUENTIAL_APPEND",
+      "IDEMPOTENT_REPLAY_RESOLUTION",
+      "DETERMINISTIC_RECOVERY_ORDERING"
+    ],
+    "negative": [
+      "UPDATE_REJECTION",
+      "DELETE_REJECTION",
+      "DUPLICATE_SEQUENCE_REJECTION",
+      "INVALID_SEQUENCE_REJECTION",
+      "BROKEN_LINEAGE_REJECTION",
+      "CROSS_CORRELATION_LINEAGE_REJECTION",
+      "PAYLOAD_MISMATCH_REJECTION"
+    ],
+    "concurrency": "CONCURRENT_IDENTICAL_FIRST_WRITE_CLASSIFICATION"
+  },
+  "databaseStateContract": {
+    "before": {
+      "ledgerRowCount": 0,
+      "migrationApplied": true,
+      "migrationPendingCount": 0,
+      "syntheticPrefixMatchCount": 0
+    },
+    "during": "Only proposal-bound synthetic rows may be visible inside the controlled transaction; no uncommitted row may be treated as durable evidence.",
+    "after": {
+      "ledgerRowCount": 0,
+      "syntheticPrefixMatchCount": 0,
+      "migrationHistoryUnchanged": true,
+      "schemaUnchanged": true
+    }
+  },
+  "transactionContract": {
+    "beginExplicitTransaction": true,
+    "expectedFailureIsolation": "SAVEPOINT or exception-catching assertion blocks inside the outer transaction",
+    "commitPermitted": false,
+    "rollbackRequired": true,
+    "independentPostRollbackReadOnlyVerificationRequired": true
+  },
+  "concurrencyClassification": {
+    "normalizedReplay": "One durable logical result and the losing caller receives the governed existing result after fingerprint equality verification.",
+    "safeUniqueConflict": "One row exists, no fork or overwrite occurs, and the losing caller receives a uniqueness error without unsafe retry or mutation.",
+    "integrityFailure": "More than one row, divergent history, overwrite, mutation, unclassified error, or residue after cleanup.",
+    "expectedCurrentResult": "SAFE_UNIQUE_CONFLICT",
+    "liveExecutionPermitted": false
+  },
+  "stopConditions": [
+    "Branch, project reference, migration version, or migration SHA-256 differs from the proposal.",
+    "Ledger row count is not zero before execution.",
+    "Any pending migration or schema drift is detected.",
+    "A real or non-prefixed identity is selected or observed in the mutation scope.",
+    "The controlled session loses transaction scope or autocommit cannot be disabled.",
+    "Any positive assertion fails or any required negative operation succeeds.",
+    "Unexpected database, authorization, trigger, or constraint behavior occurs.",
+    "A notification, publication, QuickBooks, deployment, push, merge, or Phase 6.2 path is invoked.",
+    "Rollback fails or the independent post-check does not prove zero rows and zero prefix matches."
+  ],
+  "prohibitedActions": [
+    "MIGRATION_REPLAY_OR_REAPPLICATION",
+    "REAL_PRODUCTION_BUSINESS_RECORD_MUTATION",
+    "COMMIT_LEDGER_ROWS",
+    "LIVE_CONCURRENT_WRITE_RACE",
+    "DEPLOY",
+    "PUSH",
+    "MERGE",
+    "NOTIFICATION_DELIVERY",
+    "EXTERNAL_DOCUMENT_PUBLICATION",
+    "QUICKBOOKS_WRITE",
+    "ENVIRONMENT_CHANGE",
+    "PHASE_6_2",
+    "COVERING_INDEX_IMPLEMENTATION",
+    "CONCURRENCY_BEHAVIOR_CHANGE"
+  ],
+  "blockingFindings": [],
+  "nonBlockingFindings": [
+    "Concurrent identical first writes may surface a unique-conflict error rather than normalized replay.",
+    "The predecessor foreign key lacks a covering index.",
+    "Recovery indexes remain unused while the live ledger is empty."
+  ],
+  "recommendation": "APPROVE_PHASE_6_1_CONTROLLED_MUTATION_VERIFICATION_EXECUTION_USING_PROPOSAL_GES-P6-1-CMV-20260729-001",
+  "eligibility": {
+    "proposalReview": "APPROVED",
+    "controlledMutationExecution": "APPROVED_AND_VERIFIED",
+    "deployment": "NOT_AUTHORIZED",
+    "push": "NOT_AUTHORIZED",
+    "merge": "NOT_AUTHORIZED",
+    "phase6_2": "NOT_AUTHORIZED"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "runId": "GES-P6-1-CMV-20260729T225921Z-A7F3",
+  "proposalId": "GES-P6-1-CMV-20260729-001",
+  "executedAt": "2026-07-29",
+  "branch": "phase-8-batch-6-1-live-persistence-validation",
+  "projectRef": "tmpolrjddutatfjokjfk",
+  "migrationVersion": "20260729011312",
+  "migrationSha256": "46C2D16ED1082F4C76C966246C124657E75D46F100673D1F3E3CF92CA6BFE3AF",
+  "preconditions": {
+    "status": "PASS",
+    "migrationAppliedCount": 1,
+    "pendingMigrations": 0,
+    "ledgerRowCount": 0,
+    "syntheticPrefixCount": 0,
+    "rlsEnabled": true,
+    "protectionTriggerCount": 2,
+    "serviceRolePrivileges": ["SELECT", "INSERT"],
+    "serviceRoleUpdate": false,
+    "serviceRoleDelete": false,
+    "anonymousRead": false,
+    "authenticatedRead": false
+  },
+  "liveTransaction": {
+    "explicitBegin": true,
+    "commitExecuted": false,
+    "rollbackExecuted": true,
+    "transactionVisibleApprovedRowsBeforeRollback": 2,
+    "positiveCases": [
+      { "case": "FIRST_APPEND", "status": "PASS" },
+      { "case": "SEQUENTIAL_APPEND", "status": "PASS" },
+      { "case": "IDEMPOTENT_REPLAY_RESOLUTION", "status": "PASS", "evidence": "Exact aggregate fingerprint resolved the existing ledger identity without another insert." },
+      { "case": "DETERMINISTIC_RECOVERY_ORDERING", "status": "PASS", "evidence": "Sequences recovered as [1,2] with exact predecessor linkage." }
+    ],
+    "negativeCases": [
+      { "case": "UPDATE_REJECTION", "status": "PASS", "sqlstate": "P0001" },
+      { "case": "DELETE_REJECTION", "status": "PASS", "sqlstate": "P0001" },
+      { "case": "DUPLICATE_SEQUENCE_REJECTION", "status": "PASS", "sqlstate": "23505" },
+      { "case": "INVALID_SEQUENCE_REJECTION", "status": "PASS", "sqlstate": "P0001" },
+      { "case": "BROKEN_LINEAGE_REJECTION", "status": "PASS", "sqlstate": "P0001" },
+      { "case": "CROSS_CORRELATION_LINEAGE_REJECTION", "status": "PASS", "sqlstate": "P0001" },
+      { "case": "PAYLOAD_MISMATCH_REJECTION", "status": "PASS", "sqlstate": "23514" }
+    ]
+  },
+  "postRollback": {
+    "status": "PASS",
+    "independentSession": true,
+    "ledgerRowCount": 0,
+    "syntheticPrefixCount": 0,
+    "runSpecificRowCount": 0,
+    "migrationAppliedCount": 1,
+    "pendingMigrations": 0,
+    "schemaAndProtectionStateUnchanged": true
+  },
+  "concurrency": {
+    "database": "DISPOSABLE_LOCAL_POSTGRESQL_17_6",
+    "linkedDatabaseTouched": false,
+    "schemaColumnCount": 29,
+    "preReadRowCounts": [0, 0],
+    "identicalInsertSuccesses": 1,
+    "identicalInsertFailures": 1,
+    "failureSqlstate": "23505",
+    "rowCountAfterRace": 1,
+    "distinctLedgerCount": 1,
+    "distinctAggregateCount": 1,
+    "disposableDatabaseDestroyed": true,
+    "classification": "SAFE_UNIQUE_CONFLICT"
+  },
+  "blockingFindings": [],
+  "finalStatus": "GES_DOCUMENT_PHASE_6_1_CONTROLLED_MUTATION_VERIFICATION_APPROVED"
+}

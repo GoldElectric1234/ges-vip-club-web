@@ -1,0 +1,17 @@
+{
+  "decisionId": "GES-P6-1-GOVERNOR-20260728-001",
+  "proposalId": "GES-P6-1-REVIEW-20260728-001",
+  "decision": "EVIDENCE_REVIEW_APPROVED",
+  "decisionStatus": "FINAL",
+  "blockingFindings": [],
+  "eligibility": {
+    "phase6_1EvidenceApproval": "APPROVED",
+    "controlledMutationVerification": "NOT_ELIGIBLE",
+    "deployment": "NOT_AUTHORIZED",
+    "push": "NOT_AUTHORIZED",
+    "merge": "NOT_AUTHORIZED",
+    "phase6_2": "NOT_AUTHORIZED"
+  },
+  "scopeStatement": "Approval certifies Phase 6.1 migration evidence only and grants no mutation or downstream authority.",
+  "finalStatus": "GES_DOCUMENT_PHASE_6_1_ENGINEERING_GOVERNOR_EVIDENCE_REVIEW_APPROVED"
+}

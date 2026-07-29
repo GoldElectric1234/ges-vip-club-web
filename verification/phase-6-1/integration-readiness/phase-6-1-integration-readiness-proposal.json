@@ -1,0 +1,40 @@
+{
+  "proposalId": "GES-P6-1-INTEGRATION-20260729-001",
+  "phase": "6.1",
+  "status": "GES_DOCUMENT_PHASE_6_1_INTEGRATION_READINESS_PROPOSAL_CREATED",
+  "roadmapState": "PHASE_6_1_APPROVED_PENDING_INTEGRATION_AUTHORIZATION",
+  "sourceBranch": "phase-8-batch-6-1-live-persistence-validation",
+  "blockingFindings": [],
+  "integrationSafety": {
+    "migrationHashVerified": true,
+    "migrationImmutable": true,
+    "temporaryDatabasePackageIncluded": false,
+    "disposableDatabaseIncluded": false,
+    "credentialsOrSecretsIncluded": false,
+    "rawProductionDataIncluded": false,
+    "unredactedEvidenceIncluded": false,
+    "dirtyWorktreeRequiresExactScopeControl": true,
+    "packageJsonRequiresPartialHunkControl": true,
+    "packageLockIncluded": false
+  },
+  "eligibility": {
+    "commitPreparation": "ELIGIBLE_FOR_SEPARATE_AUTHORIZATION_WITH_EXACT_SCOPE_AND_PARTIAL_HUNK_CONTROL",
+    "push": "NOT_AUTHORIZED",
+    "pullRequestCreation": "NOT_AUTHORIZED",
+    "reviewBranchIntegration": "NOT_AUTHORIZED",
+    "merge": "NOT_AUTHORIZED",
+    "deployment": "NOT_AUTHORIZED",
+    "phase6_2": "NOT_AUTHORIZED"
+  },
+  "recommendedNextAuthorization": "APPROVE_SCOPED_PHASE_6_1_COMMIT_PREPARATION_ONLY_USING_MANIFEST_GES-P6-1-INTEGRATION-20260729-001",
+  "conditions": [
+    "Stage only the exact manifest files and the single Phase 6 package.json script hunk.",
+    "Exclude package-lock.json and every unrelated dirty-worktree path.",
+    "Recompute the migration SHA-256 immediately before staging and after commit preparation.",
+    "Repeat secret/sensitive-data and diff checks against the staged index.",
+    "Obtain separate Platform Owner authorization before push, pull request creation, merge, deployment, or Phase 6.2."
+  ],
+  "integrationOnlyWarnings": [
+    "Git reports that package.json LF line endings may be normalized to CRLF when Git next touches the file; staged diff review must prove that only the approved script hunk is included."
+  ]
+}
