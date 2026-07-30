@@ -1,0 +1,46 @@
+{
+  "recordedAt": "2026-07-30T00:15:15Z",
+  "authorization": "APPROVE_PHASE_6_1_PULL_REQUEST_CREATION_ONLY_FROM_12F63082D8AB480C3ABC7EEB006E40B336A68A19_TO_MAIN",
+  "repository": "GoldElectric1234/ges-vip-club-web",
+  "pullRequest": {
+    "number": 1,
+    "url": "https://github.com/GoldElectric1234/ges-vip-club-web/pull/1",
+    "title": "Phase 6.1: Durable Evidence Persistence and Governance Approval",
+    "base": "main",
+    "baseSha": "33af850ff56c500bb346f567a905319ef7a94661",
+    "head": "phase-8-batch-6-1-live-persistence-validation",
+    "headSha": "12f63082d8ab480c3abc7eeb006e40b336a68a19",
+    "draft": true,
+    "open": true,
+    "merged": false,
+    "mergeable": true,
+    "autoMergeEnabled": false,
+    "checkStatus": "NO_WORKFLOW_RUNS",
+    "commits": 3,
+    "changedFiles": 44,
+    "additions": 5149,
+    "deletions": 489
+  },
+  "preCreationValidation": {
+    "duplicatePullRequests": 0,
+    "mergeConflict": false,
+    "migrationSha256": "46C2D16ED1082F4C76C966246C124657E75D46F100673D1F3E3CF92CA6BFE3AF",
+    "secretFindings": 0,
+    "linkedMigrationPending": 0,
+    "linkedLedgerRows": 0,
+    "linkedDatabaseLintErrors": 0,
+    "documentTestsPassed": 124,
+    "durableEvidenceTestsPassed": 6,
+    "documentWorkflowTestsPassed": 44,
+    "notificationTestsPassed": 11,
+    "translationKeys": 2020
+  },
+  "acceptedBaseline": "PHASE_6_1_INTENTIONAL_MARKDOWN_TWO_SPACE_HARD_BREAKS",
+  "eligibility": {
+    "prReview": "ELIGIBLE",
+    "merge": "NOT_AUTHORIZED",
+    "deployment": "NOT_AUTHORIZED",
+    "phase6_2": "NOT_AUTHORIZED"
+  },
+  "status": "GES_DOCUMENT_PHASE_6_1_PULL_REQUEST_CREATED"
+}

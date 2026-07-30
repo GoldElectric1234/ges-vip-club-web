@@ -62,3 +62,26 @@ Roadmap state:
 
 Status:
 `GES_DOCUMENT_PHASE_6_1_REMOTE_BRANCH_CREATED_WITH_APPROVED_ANCESTRY`
+
+## Pull request creation
+
+Platform Owner authorization
+`APPROVE_PHASE_6_1_PULL_REQUEST_CREATION_ONLY_FROM_12F63082D8AB480C3ABC7EEB006E40B336A68A19_TO_MAIN`
+approved creation of one review-only draft pull request.
+
+- Pull request: `#1`
+- URL: `https://github.com/GoldElectric1234/ges-vip-club-web/pull/1`
+- Base: `main` at `33af850ff56c500bb346f567a905319ef7a94661`
+- Head: `phase-8-batch-6-1-live-persistence-validation` at
+  `12f63082d8ab480c3abc7eeb006e40b336a68a19`
+- Draft: yes
+- Mergeable: yes
+- Auto-merge: disabled
+- Workflow runs at verification: none
+- Merged: no
+
+PR review is eligible. Merge, deployment, production mutation, branch deletion,
+and Phase 6.2 remain unauthorized.
+
+Status:
+`GES_DOCUMENT_PHASE_6_1_PULL_REQUEST_CREATED`
