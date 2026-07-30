@@ -794,3 +794,27 @@ Statuses:
 
 - `GES_DOCUMENT_PHASE_6_1_FORMALLY_COMPLETED`
 - `GES_DOCUMENT_PHASE_6_1_INTEGRATION_READINESS_PROPOSAL_CREATED`
+
+## Phase 6.1 Remote Publication Resume Point
+
+Date: 2026-07-29
+
+The approved non-force publication created remote branch
+`phase-8-batch-6-1-live-persistence-validation` with exactly predecessor
+`055eddeb849d56ae40de7b574ac9631fabb04c77` and Phase 6.1 tip
+`8c942cded4c5dcab56fef4da385682c41e403f1c` above unchanged remote base
+`33af850ff56c500bb346f567a905319ef7a94661`.
+
+Post-push verification passed: remote tip and ancestry are exact, local and
+remote are zero ahead and zero behind, `origin/main` is unchanged, no tags or
+other branches changed, and unrelated working changes were preserved.
+
+Next governed action requires separate Platform Owner authorization for pull
+request creation. Merge, deployment, production mutation, and Phase 6.2 remain
+unauthorized.
+
+Roadmap state:
+`PHASE_6_1_REMOTE_BRANCH_PUBLISHED_PENDING_PULL_REQUEST_AUTHORIZATION`
+
+Status:
+`GES_DOCUMENT_PHASE_6_1_REMOTE_BRANCH_CREATED_WITH_APPROVED_ANCESTRY`

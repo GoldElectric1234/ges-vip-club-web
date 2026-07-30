@@ -606,3 +606,22 @@ Statuses:
 
 - `GES_DOCUMENT_PHASE_6_1_FORMALLY_COMPLETED`
 - `GES_DOCUMENT_PHASE_6_1_INTEGRATION_READINESS_PROPOSAL_CREATED`
+
+## Phase 6.1 remote branch publication
+
+Platform Owner authorization approved publication of the complete verified
+two-commit ancestry from `33af850ff56c500bb346f567a905319ef7a94661`
+through `8c942cded4c5dcab56fef4da385682c41e403f1c`. The non-force push created only
+`phase-8-batch-6-1-live-persistence-validation`; post-publication verification
+confirmed the approved tip and ancestry, zero ahead/behind divergence, unchanged
+`origin/main`, zero tags, and no change to unrelated local work before evidence
+recording.
+
+Pull request creation, merge, deployment, production mutation, and Phase 6.2
+remain unauthorized.
+
+Roadmap state:
+`PHASE_6_1_REMOTE_BRANCH_PUBLISHED_PENDING_PULL_REQUEST_AUTHORIZATION`
+
+Status:
+`GES_DOCUMENT_PHASE_6_1_REMOTE_BRANCH_CREATED_WITH_APPROVED_ANCESTRY`
