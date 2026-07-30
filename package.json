@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test:unit:documents:durable-evidence": "node --conditions=react-server ./node_modules/@playwright/test/cli.js test tests/unit/documents/durable-evidence/durable-evidence-persistence.spec.ts -c playwright.unit.config.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.107.0",

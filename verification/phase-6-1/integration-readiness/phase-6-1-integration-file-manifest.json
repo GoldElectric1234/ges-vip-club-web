@@ -1,0 +1,52 @@
+{
+  "manifestId": "GES-P6-1-INTEGRATION-20260729-001",
+  "wholeFiles": [
+    "src/lib/documents/durable-evidence/durable-evidence-repository.ts",
+    "src/lib/documents/durable-evidence/durable-evidence-service.server.ts",
+    "src/lib/documents/durable-evidence/durable-evidence-types.ts",
+    "src/lib/documents/durable-evidence/index.ts",
+    "src/lib/ges-document-durable-evidence-persistence.server.ts",
+    "tests/unit/documents/durable-evidence/durable-evidence-persistence.spec.ts",
+    "supabase/migrations/20260729011312_phase_6_governed_document_evidence_ledger.sql",
+    "docs/architecture/GES_DOCUMENT_PERSISTENCE_ARCHITECTURE.md",
+    "docs/governance/GES_DOCUMENT_APPEND_ONLY_POLICY.md",
+    "docs/audits/GES_DOCUMENT_PHASE_6_REPORT.md",
+    "docs/audits/GES_DOCUMENT_PHASE_6_MIGRATION_APPLICATION_REPORT.md",
+    "docs/audits/GES_DOCUMENT_PHASE_6_1_REVIEW_READINESS_REPORT.md",
+    "docs/audits/GES_DOCUMENT_PHASE_6_1_ENGINEERING_GOVERNOR_REPORT.md",
+    "docs/audits/GES_DOCUMENT_PHASE_6_1_CONTROLLED_MUTATION_VERIFICATION_PROPOSAL.md",
+    "docs/audits/GES_DOCUMENT_PHASE_6_1_CONTROLLED_MUTATION_VERIFICATION_REPORT.md",
+    "docs/audits/GES_DOCUMENT_PHASE_6_1_COMPLETION_RECORD.md",
+    "docs/audits/GES_DOCUMENT_PHASE_6_1_INTEGRATION_READINESS_PROPOSAL.md",
+    "verification/phase-6-1/review-readiness/phase-6-1-ready-for-review-proposal.json",
+    "verification/phase-6-1/review-readiness/phase-6-1-review-evidence.md",
+    "verification/phase-6-1/engineering-governor/engineering-governor-decision.json",
+    "verification/phase-6-1/engineering-governor/engineering-governor-evidence-report.md",
+    "verification/phase-6-1/engineering-governor/engineering-governor-validation-results.json",
+    "verification/phase-6-1/controlled-mutation-verification/controlled-mutation-decision.json",
+    "verification/phase-6-1/controlled-mutation-verification/controlled-mutation-evidence-report.md",
+    "verification/phase-6-1/controlled-mutation-verification/controlled-mutation-verification-procedure.md",
+    "verification/phase-6-1/controlled-mutation-verification/controlled-mutation-verification-proposal.json",
+    "verification/phase-6-1/controlled-mutation-verification/runs/GES-P6-1-CMV-20260729T225921Z-A7F3/disposable-concurrency-verification.mjs",
+    "verification/phase-6-1/controlled-mutation-verification/runs/GES-P6-1-CMV-20260729T225921Z-A7F3/live-controlled-verification.sql",
+    "verification/phase-6-1/controlled-mutation-verification/runs/GES-P6-1-CMV-20260729T225921Z-A7F3/verification-results.json",
+    "verification/phase-6-1/completion/phase-6-1-completion-record.json",
+    "verification/phase-6-1/integration-readiness/phase-6-1-integration-readiness-proposal.json",
+    "verification/phase-6-1/integration-readiness/phase-6-1-integration-file-manifest.json",
+    "GES_DOCUMENT_SIGNATURE_MASTER_ROADMAP.md",
+    "ROADMAP_RESUME_REPORT.md"
+  ],
+  "partialFiles": [
+    {
+      "path": "package.json",
+      "only": "test:unit:documents:durable-evidence script entry"
+    }
+  ],
+  "explicitlyExcluded": [
+    "package-lock.json",
+    "supabase/.temp/**",
+    "node_modules/**",
+    "%TEMP%/ges-p6-1-cmv-*",
+    "all unrelated dirty-worktree paths"
+  ]
+}

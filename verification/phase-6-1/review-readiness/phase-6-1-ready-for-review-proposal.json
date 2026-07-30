@@ -1,0 +1,74 @@
+{
+  "proposalId": "GES-P6-1-REVIEW-20260728-001",
+  "proposalVersion": "1.0.0",
+  "phase": "6.1",
+  "proposalStatus": "READY_FOR_REVIEW",
+  "proposalCategory": "DATABASE_MIGRATION_EVIDENCE_REVIEW",
+  "generatedAt": "2026-07-28T20:00:00.000Z",
+  "branch": "phase-8-batch-6-1-live-persistence-validation",
+  "migrationVersion": "20260729011312",
+  "migrationSha256": "46C2D16ED1082F4C76C966246C124657E75D46F100673D1F3E3CF92CA6BFE3AF",
+  "risk": "MEDIUM",
+  "safetyLevel": 1,
+  "executionMode": "EVIDENCE_REVIEW_ONLY",
+  "governorEligibility": {
+    "eligible": true,
+    "requiresHumanApprovalBeforeExecution": true,
+    "permittedScope": "READ_ONLY_EVIDENCE_REVIEW",
+    "controlledMutationExecutionEligible": false,
+    "reason": "The applied database migration must not be replayed or represented as a semantic source repair."
+  },
+  "blockingFindings": [],
+  "nonBlockingWarnings": [
+    "Concurrent identical first writes can surface a unique-conflict error instead of normalized idempotent replay.",
+    "The predecessor foreign key has no dedicated covering index.",
+    "Recovery indexes are unused while the ledger is empty."
+  ],
+  "acceptedBaselines": [
+    "Unrelated Gold AI ApprovalLabel TypeScript/build error.",
+    "Unrelated admin-roles TableShell TypeScript error.",
+    "Unrelated translation-integrity ${translationCall} scanner finding.",
+    "Unrelated pre-existing Supabase advisor findings."
+  ],
+  "evidence": [
+    "docs/audits/GES_DOCUMENT_PHASE_6_MIGRATION_APPLICATION_REPORT.md",
+    "docs/audits/GES_DOCUMENT_PHASE_6_1_REVIEW_READINESS_REPORT.md",
+    "docs/architecture/GES_DOCUMENT_PERSISTENCE_ARCHITECTURE.md",
+    "docs/governance/GES_DOCUMENT_APPEND_ONLY_POLICY.md",
+    "supabase/migrations/20260729011312_phase_6_governed_document_evidence_ledger.sql",
+    "tests/unit/documents/durable-evidence/durable-evidence-persistence.spec.ts"
+  ],
+  "validationPlan": [
+    "Verify migration SHA-256 and applied history using read-only evidence.",
+    "Run focused Phase 6 tests and document boundary checks.",
+    "Review live catalog, RLS, privilege, trigger, rollback, and advisor evidence.",
+    "Confirm verification fixtures remain rolled back and ledger remains empty.",
+    "Classify known baselines separately from Phase 6.1 findings."
+  ],
+  "rollbackPlan": {
+    "exactDestructiveRollbackAllowed": false,
+    "reason": "Append-only evidence history must not be destroyed.",
+    "strategy": [
+      "Use transaction rollback for verification fixtures.",
+      "Use a forward migration to revoke INSERT if capability suspension is required.",
+      "Use Supabase backup/PITR and deterministic lineage verification for disaster recovery."
+    ]
+  },
+  "approvalGate": {
+    "humanApprovalRequired": true,
+    "approverRole": "PLATFORM_OWNER",
+    "reason": "Engineering Governor execution may begin only for the evidence-review scope."
+  },
+  "capabilities": {
+    "canReapplyMigration": false,
+    "canModifyProductionRows": false,
+    "canDeploy": false,
+    "canPush": false,
+    "canMerge": false,
+    "canDeliverNotifications": false,
+    "canPublishDocuments": false,
+    "canWriteQuickBooks": false,
+    "canBeginPhase6_2": false
+  },
+  "recommendation": "APPROVE_ENGINEERING_GOVERNOR_EXECUTION_FOR_PHASE_6_1_EVIDENCE_REVIEW_ONLY"
+}

@@ -1,0 +1,30 @@
+{
+  "decisionId": "GES-P6-1-CMV-DECISION-20260729-001",
+  "proposalId": "GES-P6-1-CMV-20260729-001",
+  "runId": "GES-P6-1-CMV-20260729T225921Z-A7F3",
+  "decision": "CONTROLLED_MUTATION_VERIFICATION_APPROVED",
+  "decisionStatus": "FINAL",
+  "concurrencyClassification": "SAFE_UNIQUE_CONFLICT",
+  "blockingFindings": [],
+  "nonBlockingFindings": [
+    "Concurrent identical first writes surface a safe unique conflict rather than normalized replay.",
+    "The predecessor foreign key lacks a covering index.",
+    "Recovery indexes remain unused while the durable ledger is empty."
+  ],
+  "acceptedBaselines": [
+    "Gold AI ApprovalLabel TypeScript/build error",
+    "Admin-role TableShell TypeScript error",
+    "Translation-integrity ${translationCall} scanner finding",
+    "Unrelated Supabase advisor findings"
+  ],
+  "eligibility": {
+    "phase6_1ControlledMutationApproval": "APPROVED",
+    "productionDataPersistence": "NOT_AUTHORIZED",
+    "deployment": "NOT_AUTHORIZED",
+    "push": "NOT_AUTHORIZED",
+    "merge": "NOT_AUTHORIZED",
+    "phase6_2": "NOT_AUTHORIZED"
+  },
+  "scopeStatement": "Approval certifies only the rolled-back Phase 6.1 controlled mutation verification and disposable concurrency result.",
+  "finalStatus": "GES_DOCUMENT_PHASE_6_1_CONTROLLED_MUTATION_VERIFICATION_APPROVED"
+}
